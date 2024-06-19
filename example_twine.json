@@ -1,0 +1,129 @@
+{
+  "passages": [
+    {
+      "pid": 1,
+      "name": "Start",
+      "text": "The scene: your room.\nThe subject: the plastic play pen full of THREE foster kittens you've been taking care of \nThe inciting incident: the kittens have escaped!\n\nOh dear! They're mewing all over the place-- under your bed and in your closet. What do you do?\n\n[[Check under the bed]]\n[[Go peek in the closet]]\n[[Close the pen first, duh!]]",
+      "links": [
+        {
+          "text": "Check under the bed",
+          "destination": {
+            "name": "Check under the bed",
+            "pid": 2
+          }
+        },
+        {
+          "text": "Go peek in the closet",
+          "destination": {
+            "name": "Go peek in the closet",
+            "pid": 3
+          }
+        },
+        {
+          "text": "Close the pen first, duh!",
+          "destination": {
+            "name": "Close the pen first, duh!",
+            "pid": 4
+          }
+        }
+      ]
+    },
+    {
+      "pid": 2,
+      "name": "Check under the bed",
+      "text": "You check under the bed. Two brother, HOCUS and POCUS, are hiding behind your box of cables. When you pull them both out, even though they're supposed to be white, they're gray, and you realize they're covered in dust bunnies..... whoops...\n\n[[Put the cat(s) back in the pen]]",
+      "links": [
+        {
+          "text": "Put the cat(s) back in the pen",
+          "destination": {
+            "name": "Put the cat(s) back in the pen",
+            "pid": 5
+          }
+        }
+      ]
+    },
+    {
+      "pid": 3,
+      "name": "Go peek in the closet",
+      "text": "You carefully slide the door to your closet open, mindful that it's a little too stuffed full of clothes at this point to open all the way. Inside is Toast, the runt of the litter, hiding in a shoebox. You pick her up. \n\n[[Put the cat(s) back in the pen]] ",
+      "links": [
+        {
+          "text": "Put the cat(s) back in the pen",
+          "destination": {
+            "name": "Put the cat(s) back in the pen",
+            "pid": 5
+          }
+        }
+      ]
+    },
+    {
+      "pid": 4,
+      "name": "Close the pen first, duh!",
+      "text": "You close the plastic gate to the pen. Now they can't get back out! Good. Now time to get those kitties back! \n\n[[Check under the bed]] \n[[Go peek in the closet]] ",
+      "links": [
+        {
+          "text": "Check under the bed",
+          "destination": {
+            "name": "Check under the bed",
+            "pid": 2
+          }
+        },
+        {
+          "text": "Go peek in the closet",
+          "destination": {
+            "name": "Go peek in the closet",
+            "pid": 3
+          }
+        }
+      ]
+    },
+    {
+      "pid": 5,
+      "name": "Put the cat(s) back in the pen",
+      "text": "You look down at the pen. Are there any still missing?\n\n[[No, all caught!]]\n[[Wait a minute, I still hear some meowing!]] ",
+      "links": [
+        {
+          "text": "No, all caught!",
+          "destination": {
+            "name": "No, all caught!",
+            "pid": 6
+          }
+        },
+        {
+          "text": "Wait a minute, I still hear some meowing!",
+          "destination": {
+            "name": "Wait a minute, I still hear some meowing!",
+            "pid": 7
+          }
+        }
+      ]
+    },
+    {
+      "pid": 6,
+      "name": "No, all caught!",
+      "text": "Yay!! You got all the cats back :) ",
+      "links": []
+    },
+    {
+      "pid": 7,
+      "name": "Wait a minute, I still hear some meowing!",
+      "text": "[[Check under the bed]] \n[[Go peek in the closet]] ",
+      "links": [
+        {
+          "text": "Check under the bed",
+          "destination": {
+            "name": "Check under the bed",
+            "pid": 2
+          }
+        },
+        {
+          "text": "Go peek in the closet",
+          "destination": {
+            "name": "Go peek in the closet",
+            "pid": 3
+          }
+        }
+      ]
+    }
+  ]
+}
